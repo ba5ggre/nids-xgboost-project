@@ -1,0 +1,15 @@
+# Bỏ qua thư mục môi trường ảo
+venv/
+env/
+
+# Bỏ qua thư mục chứa dữ liệu thô 
+data/
+
+# Bỏ qua các file rác của Python và hệ điều hành
+__pycache__/
+*.pyc
+.DS_Store
+
+# Bỏ qua file lưu trữ mô hình nặng (nếu có)
+models/*.pkl
+models/*.json
